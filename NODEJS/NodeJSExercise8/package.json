@@ -1,0 +1,15 @@
+{
+  "name": "js-socket-examples",
+  "version": "1.0.0",
+  "description": "Simple socket examples with Node.js handed by luckyshark",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "websocket": "^1.0.29"
+  }
+}

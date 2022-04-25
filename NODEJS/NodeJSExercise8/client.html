@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Simple WebSocket Tester</title>
+</head>
+
+<body>
+<p id="recvMsg"></p>
+</body>
+<script>
+
+  const ws = new WebSocket('ws://localhost:9898/');
+
+  ws.onopen = function () {
+    console.log('WebSocket Client Connected');
+    ws.send('Hello, server. this is web client.');
+  };
+
+  ws.onmessage = function (e) {
+    document.getElementById("recvMsg").innerHTML = "Received Message From Server: '" + e.data + "'";
+    console.log("Received Message: '" + e.data + "'");
+  };
+
+</script>
+
+</html>

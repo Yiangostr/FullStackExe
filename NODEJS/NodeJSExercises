@@ -1,0 +1,53 @@
+1. what is node.js?
+-Node.js may be a single-threaded runtime environment for building scalable and fast server-side applications.
+-Node.js is a very powerful framework developed on Chrome's V8 JavaScript engine.
+It is accustomed create server-side web applications by compiling JavaScript directly
+into native code, and extends the JavaScript API to produce common server-side functionality.
+
+2. List down the most important benefits of using Node.js?
+There are 7 benefits.
+1. it's easy to code sharing and reuse with Node.js
+2. you'll be able to develop application fast.
+3. There are many free tools for node.js.
+4. Everything is asynchronous
+5. It seldom blocks.
+6. it's highly scalable.
+7. Its application never buffer any data.
+
+3. what's the difference between Asynchronous and non-blocking?
+There are several differences between them.
+-Non-blocking responds immediately, whereas Asynchronous doesn't respond
+immediately.
+-Asynchronous improves the efficiency by doing the task fast because the response
+might come later, meanwhile, can complete the opposite tasks.
+-Asynchronous is employed with a good range of operations while non-blocking is
+especially used with I/O.
+
+4. what's Web Sockets?
+The WebSockets is one  of the advanced technologies that permits you to
+make sure a two-way communication session between a user's browser and a server.
+This API allows you to send messages to and receive responses from the server
+without having to poll the server.
+Unlike HTTP, it starts from ws:// or wss://.
+As it could be a stateful protocol, which implies the connection between client and
+server will keep alive until it's terminated by either side(client or server). the
+connection is closed from both ends after closing the connection by either of the
+client and server.
+
+5. What are the most Web Socket API events?
+They are open, close, message and error events.
+Socket.onopen, Socket.onclose, Socket.onmessage, Socket.onerror are
+corresponding Event handlers.
+Open and shut events occurs when socket connection is established or closed.
+Message event occurs when a client receives data from server and error event
+occurs when a blunder occurs.
+
+6. What are the benefits of Web Sockets?
+First, web sockets provide great speed.
+In other words, there's little delay between the request and therefore the response.
+It’s much faster than HTTP.
+Second, it allows two-way communication. You'll be able to send and receive data.
+
+8. what's express.js?
+Express is one of the foremost popular Node.js web app server framework.
+It provides robust backends for web and mobile apps.
