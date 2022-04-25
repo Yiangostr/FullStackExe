@@ -1,0 +1,2 @@
+The difference between the include() and require() function is that include() return a warning when file is not found and the programm is still getting executed and require() returns an error and stop execution.
+Normally you use require() for functions and classes because they are neccessary for the programm, and include() for example for html files you want in you programm. They are needed but not neccessary for your php execution.
